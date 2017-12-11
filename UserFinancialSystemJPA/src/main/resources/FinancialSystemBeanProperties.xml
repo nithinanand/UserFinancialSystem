@@ -18,12 +18,12 @@
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
 		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="username" value="SYSTEM" />
-		<property name="password" value="admin" />
+		<property name="username" value="Chandrakanth" />
+		<property name="password" value="chandrakanth" />
 	</bean>
 
 
-	<!-- EntityManagerFactory - to tie the  -->
+	<!-- EntityManagerFactory - Spring style configuration -->
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
 		p:packagesToScan="com.chandrakanth.financesystem.entity"
