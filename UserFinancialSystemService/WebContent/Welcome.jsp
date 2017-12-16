@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="getCredentialValidation.jsp">
+	<form action="">
 		<table align="center" >
 			<tr>
 				<td>User Name</td><td><input type="text" name="User Name"></input>
