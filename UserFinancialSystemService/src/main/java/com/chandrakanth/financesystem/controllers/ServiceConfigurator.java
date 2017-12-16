@@ -1,4 +1,4 @@
-package com.chandrakanth.controllers;
+package com.chandrakanth.financesystem.controllers;
 
 public class ServiceConfigurator {
 
