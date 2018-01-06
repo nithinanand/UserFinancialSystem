@@ -8,9 +8,9 @@ public class FinancialSystemException extends Exception {
 		super();
 	}
 
-	private List<Exception> exceptionList = null;
+	private transient  List<Exception> exceptionList;
 
-	private List<String> errorMessageList = null;
+	private transient  List<String> errorMessageList;
 
 	/**
 	 * 

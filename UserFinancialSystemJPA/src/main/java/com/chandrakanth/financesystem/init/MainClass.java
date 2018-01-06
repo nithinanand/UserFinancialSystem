@@ -15,9 +15,6 @@ public class MainClass {
 	private static ApplicationContext appContext = null;
 	private static final Logger LOGGER = Logger.getLogger(MainClass.class);
 	private static ConfigurationClass configClass = null;
-
-	
-	private static MainClass mainClass = new MainClass();
 	
 	static {
 		if (appContext == null) {
